@@ -1,0 +1,32 @@
+img {
+  width: 330px;
+  height: 330px;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  border-radius: 10px;
+}
+
+.badan {
+  max-width: 50ch;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: Outfit;
+  padding: 15px;
+  background-size: 100vh;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.badan p {
+  color: gray;
+}
